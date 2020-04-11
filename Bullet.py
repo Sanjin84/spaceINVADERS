@@ -4,7 +4,7 @@ import pygame
 class Bullet(pygame.sprite.Sprite):
     """ This class represents the bullet . """
     def __init__(self,x=0,y=0):
-        # Call the parent class (Sprite) constructor
+        # Call the parent class (Sprite) constructor YEA YEs
         super().__init__()
         self.image = pygame.Surface([10, 10])
         self.image.fill(GREEN)
@@ -24,3 +24,4 @@ class Bullet(pygame.sprite.Sprite):
         if col == True:
             self.kill()
             enemy.kill()
+    
